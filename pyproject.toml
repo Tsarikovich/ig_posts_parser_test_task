@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "instagramparsertesttask"
+version = "0.1.0"
+description = ""
+authors = ["Artur Tsarikovich <artur.tsar.tsarikovich@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.100.0"
+instagrapi = "^1.17.13"
+python-dotenv = "^1.0.0"
+uvicorn = "^0.23.0"
+pillow = "^10.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
